@@ -174,6 +174,29 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Promptopia",
+    description:
+      "A MERN full stack web application that enables users to track their prompts and keep them updated, it showcases prompts according to the logged in/Current user.",
+    tags: [
+      {
+        name: "Next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "REST APIs/MongoDb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind Css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/ShaileshParigi/project_promtopia.git",
+    project_live_link:
+      "https://project-promtopia-qwe8ed8uq-shaileshreddy987-gmailcom.vercel.app/",
+  },
+  {
     name: "HooBank",
     description:
       "A responsive website that represents the a bank's profile and it's functionalities,Demonstrated using React, Figma, UI/UX design with Tailwind CSS.",
@@ -195,28 +218,7 @@ const projects = [
     source_code_link: "https://github.com/ShaileshParigi/HooBank.git",
     project_live_link: "https://hoobankvite.netlify.app/",
   },
-  {
-    name: "Workout Buddy",
-    description:
-      "A MERN full stack web application that enables users to track their exercises and keep them updated, it showcases workouts according to the logged in/Current user.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi/MongoDb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Node.js",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/ShaileshParigi/WorkoutBuddy.git",
-    project_live_link: "https://workout-frontend-np4e.onrender.com/",
-  },
+
   {
     name: "Food Munch",
     description:
